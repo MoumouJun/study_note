@@ -1,0 +1,31 @@
+1.安装git：
+	1.官网安装https://git-scm.com/download/win，加入环境变量path
+2.建立本地仓库（工作区与暂存区）：
+	1.git init 
+	2.git add filename	git commit -m 'file name change num'
+	3.
+3.文件管理（修改/撤销/删除）：
+
+4.远程库：git remote
+	1.添加远程库：
+		git remote add origin https://github.com/MoumouJun/xgboost_study.git
+		第一次git push -u origin master	以后 git push origin master
+		
+	2.克隆远程库：
+		http形式：git clone https://github.com/MoumouJun/xgboost_study.git，区别ssh形式/
+
+4.分支管理：
+	1.创建/合并/推送分支：：
+		查看分支git branch	创建分支git branch branch_name	切换分支git checkout branch_name
+		创建+切换分支git checkout -b branch_name	合并某分支到当前分支git merge branch_name
+		推送分支git push origin branch_name(主分支master，开发分支dev)
+	3.多人协作：
+		将远程仓库同步到本地-git pull	
+		
+		
+	
+N.其他操作：
+	1.config+global:
+		解决http形式下的push/pull的频繁输入用户名与密码的问题：git config --global credential.helper store
+
+	2.重命名mv：git mv -f old_file_name new_file_name,git add -u new_file_name
