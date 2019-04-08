@@ -29,3 +29,7 @@ N.其他操作：
 		解决http形式下的push/pull的频繁输入用户名与密码的问题：git config --global credential.helper store
 
 	2.重命名mv：git mv -f old_file_name new_file_name,git add -u new_file_name
+	3.	git config --global user.name "Your Name"
+		git config --global user.email you@example.com
+		After doing this, you may fix the identity used for this commit with:
+		git commit --amend --reset-author
