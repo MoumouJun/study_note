@@ -1,6 +1,7 @@
 0.参考网站
 	1.廖雪峰博客：
 	2.git笔记：https://yanhaijing.com/git/2014/11/01/my-git-note/
+	3.图解git：http://marklodato.github.io/visual-git-guide/index-zh-cn.html
 	
 
 1.安装git：
